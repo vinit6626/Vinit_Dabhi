@@ -1,0 +1,62 @@
+/* Add custom styles for .site-title */
+.site-title {
+    font-size: 64px;
+    font-weight: 100;
+    font-family: 'EB Garamond', serif;
+    text-transform: capitalize;
+    margin-top: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+/* Remove underline and prevent blue color on hover */
+.site-title:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Add custom styles for .sub-text */
+.sub-text {
+    font-size: 20px;
+}
+
+/* Add custom styles for navigation links */
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-link {
+    text-decoration: none;
+    color: #aaa;
+    transition: color 0.3s;
+}
+
+.page-link:hover {
+    color: #111;
+}
+
+.exclamationMark {
+    margin: 0 5px;
+}
+.hr25{
+    width:25%;
+}
+.githubimage{
+    width: 25px;
+}
+
+.heading{
+    margin-top: 70px;
+}
+.contact{
+    margin:auto;
+}
+.error-message {
+    color: red;
+}
+
+.black{
+    color: black;
+}
